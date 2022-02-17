@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
-ruby '2.5.1'
+ruby '3.1.0'
 #ruby-gemset=sprint
 
-gem 'rails', '~> 4.1'
-gem 'pg', '~> 0.21'
+gem 'rails', '~> 7.0'
+gem 'pg', '~> 1.3.2'
 
 group :development do
   gem 'spring-commands-rspec'
@@ -15,16 +15,16 @@ group :development do
   gem 'brakeman', require: false
 end
 
-group :test do
-  gem 'rspec-rails'
-  gem 'selenium-webdriver'
-  gem 'capybara'
-  gem 'cucumber'
-  gem 'cucumber-rails'
-  gem 'launchy'
-  gem 'database_cleaner'
-  gem 'rake'
-end
+# group :test do
+  # gem 'rspec-rails'
+  # gem 'selenium-webdriver'
+  # gem 'capybara'
+  # gem 'cucumber'
+  # gem 'cucumber-rails'
+  # gem 'launchy'
+  # gem 'database_cleaner'
+  # gem 'rake'
+# end
 
 group :production do
   gem 'rails_12factor'
@@ -32,7 +32,7 @@ group :production do
 end
 
 gem 'slim-rails'
-gem 'sass-rails', '~> 4.0.3' # Version number required for Rails 4.1.1
+gem 'sass-rails'
 gem 'kramdown', require: 'kramdown'
 gem 'bootstrap-sass'
 gem 'uglifier'
