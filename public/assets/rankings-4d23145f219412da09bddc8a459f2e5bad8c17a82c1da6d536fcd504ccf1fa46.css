@@ -1,0 +1,35 @@
+.rankings_container {
+/*
+  position: absolute;
+  left: 10px;
+  right: 10px;
+*/
+  text-align: center;
+}
+
+
+.rankings h2 {
+  font-family: "Times New Roman";
+  font-weight: normal;
+  font-size: xx-large;
+}
+
+.rankings table{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  min-width: 80%;
+}
+
+.rankings th, td {
+  vertical-align: top;
+  padding: 0 1em 0 0;
+}
+
+.rankings .left {
+  text-align: left;
+}
+
+.rankings .right {
+  text-align: right;
+}

@@ -1,0 +1,45 @@
+/* line 1, app/assets/stylesheets/home.css.scss */
+.banner {
+  width: 100%;
+}
+
+/* line 5, app/assets/stylesheets/home.css.scss */
+.banner-text {
+  text-align: center;
+}
+
+/* line 9, app/assets/stylesheets/home.css.scss */
+h1.banner-text {
+  font-family: 'Yellowtail', cursive;
+  font-size: 5em;
+  text-decoration: underline;
+}
+
+/* line 15, app/assets/stylesheets/home.css.scss */
+h2.banner-text {
+  margin: 1.5em 0 1em 0;
+  font-family: 'Economica', sans-serif;
+}
+
+/* line 20, app/assets/stylesheets/home.css.scss */
+.logo {
+  height: 3em;
+  -webkit-border-radius: 99px;
+  -moz-border-radius: 99px;
+  border-radius: 99px;
+}
+
+/* line 27, app/assets/stylesheets/home.css.scss */
+.hero-copy {
+  text-align: justify;
+}
+
+/* line 31, app/assets/stylesheets/home.css.scss */
+.action {
+  margin: 1.5em 0;
+  width: 100%;
+  height: 3.5em;
+  -webkit-border-radius: 99px !important;
+  -moz-border-radius: 99px !important;
+  border-radius: 99px !important;
+}

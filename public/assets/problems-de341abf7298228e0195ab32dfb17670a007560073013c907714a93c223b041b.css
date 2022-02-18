@@ -1,0 +1,17 @@
+/* line 5, app/assets/stylesheets/problems.css.scss */
+.correct {
+  font-size: x-large;
+  color: green;
+}
+
+/* line 10, app/assets/stylesheets/problems.css.scss */
+.incorrect {
+  font-size: x-large;
+  color: red;
+}
+
+/* line 15, app/assets/stylesheets/problems.css.scss */
+.problem-name, .problem-number {
+  font-size: x-large;
+  font-weight: bold;
+}
