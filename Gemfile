@@ -31,6 +31,7 @@ group :production do
   gem 'unicorn'
 end
 
+gem 'sprockets', '~> 4.0'
 gem 'slim-rails'
 gem 'sass-rails'
 gem 'kramdown', require: 'kramdown'
@@ -42,7 +43,3 @@ gem 'turbolinks'
 gem 'jbuilder'
 gem 'haml'
 gem 'devise'
-
-group :doc do
-  gem 'sdoc', '0.3.20', require: false
-end
